@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@yield('title')</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="materialdesignicons.min.css">
-    <link rel="stylesheet" href="ionicons.css">
-    <link rel="stylesheet" href="flag-icon.min.css">
-    <link rel="stylesheet" href="vendor.bundle.base.css">
-    <link rel="stylesheet" href="vendor.bundle.addons.css">
+    <link rel="stylesheet" href="cssmaterialdesignicons.min.css">
+    <link rel="stylesheet" href="cssionicons.css">
+    <link rel="stylesheet" href="cssflag-icon.min.css">
+    <link rel="stylesheet" href="cssvendor.bundle.base.css">
+    <link rel="stylesheet" href="css/vendor.bundle.addons.css">
     <!-- endinject -->
     <!-- plugin css for this page -->
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="assets/css/shared/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- endinject -->
     <!-- Layout styles -->
-    <link rel="stylesheet" href="demo_1_style.css">
+    <link rel="stylesheet" href="css/demo_1_style.css">
     <!-- End Layout styles -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="css/favicon.ico">
     @yield('css')
   </head>
   <body>
@@ -858,19 +858,19 @@
     </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
-    <script src="vendor.bundle.base.js"></script>
-    <script src="vendor.bundle.addons.js"></script>
+    <script src="js/vendor.bundle.base.js"></script>
+    <script src="js/vendor.bundle.addons.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
     <!-- End plugin js for this page-->
     <!-- inject:js -->
-    <script src="off-canvas.js"></script>
-    <script src="misc.js"></script>
+    <script src="js/off-canvas.js"></script>
+    <script src="js/misc.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="dashboard.js"></script>
+    <script src="js/dashboard.js"></script>
     <!-- End custom js for this page-->
-    <script src="jquery.cookie.js" type="text/javascript"></script>
+    <script src="js/jquery.cookie.js" type="text/javascript"></script>
     @yield('js')
   </body>
 </html>
