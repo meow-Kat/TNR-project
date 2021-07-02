@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>@yield('title')</title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="cssmaterialdesignicons.min.css">
-    <link rel="stylesheet" href="cssionicons.css">
-    <link rel="stylesheet" href="cssflag-icon.min.css">
-    <link rel="stylesheet" href="cssvendor.bundle.base.css">
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/flag-icon.min.css">
+    <link rel="stylesheet" href="css/vendor.bundle.base.css">
     <link rel="stylesheet" href="css/vendor.bundle.addons.css">
     <!-- endinject -->
     <!-- plugin css for this page -->
