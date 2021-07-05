@@ -22,8 +22,12 @@
     <link rel="stylesheet" href="css/demo_1_style.css">
     <!-- End Layout styles -->
     <link rel="shortcut icon" href="css/favicon.ico">
-    {{-- front CDN --}}
+    
+    {{-- font CDN --}}
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    {{-- Data Table --}}
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
     @yield('css')
   </head>
   <body>
@@ -874,6 +878,10 @@
     <script src="js/dashboard.js"></script>
     <!-- End custom js for this page-->
     <script src="jquery.cookie.js" type="text/javascript"></script>
+
+    {{-- Data Table --}}
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+
     @yield('js')
   </body>
 </html>
