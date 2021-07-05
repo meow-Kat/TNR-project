@@ -10,8 +10,8 @@ class Product extends Model
         'product_category_id', 'img', 'title', 'content', 'price',
     ];
 
-    public function Product()
+    public function product()
     {
-        $this->hasOne('App\product','id','id');
+        $this->hasOne('App\product','id','product_category_id');
     }
 }

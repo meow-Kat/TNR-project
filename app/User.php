@@ -37,8 +37,12 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function Cats()
+    public function cats()
     {
         return $this->hasMany('App\Cats', 'id', 'user_id');
+    }
+    public function story()
+    {
+        $this->hasMany('App\help', 'help_category_id','id');
     }
 }

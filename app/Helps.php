@@ -10,8 +10,8 @@ class Helps extends Model
         'help_category_id', 'name', 'address', 
     ];
     
-    public function help()
+    public function category()
     {
-        
+        $this->hasMany('App\Help','id','help_category_id')
     }
 }

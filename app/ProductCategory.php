@@ -10,8 +10,8 @@ class ProductCategory extends Model
         'category',
     ];
 
-    public function FunctionName()
+    public function category()
     {
-        # code...
+        return $this->hasMany('App\Help', 'product_category_id', 'id')
     }
 }

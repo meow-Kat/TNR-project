@@ -18,7 +18,7 @@ class CreateCatsTable extends Migration
             $table->longtext('img')->comment('貓貓圖');
             $table->string('name')->comment('貓貓名');
             $table->number('age')->comment('貓貓年紀');
-            $table->bolling('sex')->comment('貓貓性別(0母1公)');
+            $table->bolling('gender')->comment('貓貓性別(0母1公)');
             $table->string('location')->comment('所在縣市');
             $table->longtext('content')->comment('貓貓說明');
             $table->string('vaccine')->comment('貓貓預防針');

@@ -10,8 +10,8 @@ class Story extends Model
         'help_category_id', 'img', 'title', 'content', 
     ];
 
-    public function FunctionName()
+    public function user()
     {
-        $this->hasOne('App\help', 'id','id');
+        $this->hasOne('App\help', 'id','help_category_id');
     }
 }
