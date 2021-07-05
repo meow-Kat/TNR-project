@@ -39,6 +39,6 @@ class User extends Authenticatable
 
     public function Cats()
     {
-        return $this->hasMany('App\Cats', 'user_id','id');
+        return $this->hasMany('App\Cats', 'id', 'user_id');
     }
 }

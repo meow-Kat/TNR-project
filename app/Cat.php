@@ -12,6 +12,6 @@ class Cat extends Model
 
     public function User()
     {
-        return $this->hasOne('App\User', 'user_id','id')
+        return $this->hasOne('App\User', 'user_id','id');
     }
 }
