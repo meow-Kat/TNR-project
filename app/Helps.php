@@ -12,6 +12,6 @@ class Helps extends Model
     
     public function category()
     {
-        $this->hasMany('App\Help','id','help_category_id')
+        $this->hasMany('App\Help','id','help_category_id');
     }
 }
