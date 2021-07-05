@@ -12,9 +12,10 @@ class CreateProductCategoriesTable extends Migration
      * @return void
      */
     public function up()
-    {
+    {   // 購物車分類欄位
         Schema::create('product_categories', function (Blueprint $table) {
             $table->id();
+            $table->string('category')->comment('產品種類');
             $table->timestamps();
         });
     }

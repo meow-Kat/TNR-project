@@ -16,7 +16,10 @@ class CreateNewsTable extends Migration
         Schema::create('news', function (Blueprint $table) {
             $table->id();
             $table->longtext('img')->comment('圖片');
-            $table->date()->comment('圖片');
+            $table->string('title')->comment('新聞標題');
+            $table->date('date')->comment('發布日期');
+            // summernote
+            $table->longtext('content')->comment('新聞內容');
             $table->timestamps();
         });
     }

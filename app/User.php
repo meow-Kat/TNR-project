@@ -15,8 +15,8 @@ class User extends Authenticatable
      *
      * @var array
      */
-    protected $fillable = [
-        'name', 'email', 'password',
+    protected $fillable = [ // 新增 手機 暱稱 地址
+        'name', 'email', 'password', 'nick_name', 'phone', 'address', 
     ];
 
     /**
@@ -36,4 +36,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function Cats()
+    {
+        return $this->hasMany('App\Cats', 'user_id','id');
+    }
 }
