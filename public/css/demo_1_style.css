@@ -129,16 +129,7 @@
     .nav .nav-item.dropdown,
     .navbar-nav .nav-item.dropdown {
       position: unset; } }
-  .nav .nav-item.dropdown .dropdown-toggle:after,
-  .navbar-nav .nav-item.dropdown .dropdown-toggle:after {
-    border: none;
-    content: "\F140";
-    font-family: "Material Design Icons";
-    font-size: 20px;
-    color: grey;
-    text-rendering: auto;
-    line-height: inherit;
-    vertical-align: 0; }
+  
   .nav .nav-item.dropdown .count-indicator,
   .navbar-nav .nav-item.dropdown .count-indicator {
     position: relative;
